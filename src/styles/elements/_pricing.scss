@@ -1,0 +1,385 @@
+/*-------------------------------
+    Pricing Area  
+--------------------------------*/
+.rn-pricing {
+    width: 330px;
+    height: 378px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(229.88deg, #27A478 3.14%, #BFD92E 96.16%);
+    border-radius: 10px;
+    transition: all 0.6s cubic-bezier(0.33, 0.84, 0.31, 0.98);
+    transform-style: preserve-3d;
+    position: relative;
+    z-index: 2;
+
+    &::before {
+        z-index: -1;
+        display: inline-block;
+        content: '';
+        -webkit-transition: all 0.6s cubic-bezier(0.33, 0.84, 0.31, 0.98);
+        transition: all 0.6s cubic-bezier(0.33, 0.84, 0.31, 0.98);
+        opacity: 0;
+        border-radius: 5px;
+        background-color: #f81f01;
+        background-image: linear-gradient(145deg, #f81f01 0%, #ee076e 100%);
+        position: absolute;
+        top: -2px;
+        right: -2px;
+        bottom: -2px;
+        left: -2px;
+    }
+
+    .pricing-table-inner {
+        padding: 40px;
+
+        .pricing-header {
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+
+            h4 {
+                &.title {
+                    position: absolute;
+                    width: 92px;
+                    height: 30px;
+                    left: 119px;
+                    top: 70px;
+
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 30px;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    text-transform: uppercase;
+
+                    color: #FFFFFF;
+
+                }
+            }
+
+            .pricing {
+                left: 98px;
+                    top:112px;
+                    position: absolute;
+                span {
+                    display: block;
+                    width: auto;
+                    height: auto;
+                    text-align: center;
+
+                    &.price {
+                        width: 72px;
+                        height: 20px;
+
+                        font-family: 'Mulish';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 29px;
+                        line-height: 36px;
+                        text-align: center;
+                        text-transform: uppercase;
+
+                        color: #FFFFFF;
+
+
+                        /* Inside auto layout */
+
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0;
+
+                    }
+
+                    &.subtitle {
+
+                        width: 56px;
+                        height: 10px;
+
+                        font-family: 'Mulish';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 18px;
+
+                        text-align: center;
+
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+        .pricing-body {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 10px;
+            gap: 15px;
+
+            position: absolute;
+            width: 300px;
+            height: 317px;
+            left: 15px;
+            top: 245px;
+
+            background: #FFFFFF;
+            /* Shadow 2 */
+
+            box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.16);
+            border-radius: 10px;
+
+
+            ul {
+                &.list-style--1 {}
+            }
+        }
+
+        .pricing-footer {
+            text-align: center;
+
+            a {
+                &.rn-btn {
+                    background: #FFFFFF;
+                    color: #476BC7;
+                    left: 81px;
+                    top:154px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+
+
+    &.active {
+        &::before {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        .pricing-table-inner {
+            .pricing-header {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+                h4 {
+                    &.title {
+                        position: absolute;
+                    width: 92px;
+                    height: 30px;
+                    left: 81px;
+                    top: 70px;
+
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 30px;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    text-transform: uppercase;
+
+                    color: #FFFFFF;
+
+                    }
+                }
+
+                .pricing {
+                    left: 98px;
+                    top:112px;
+                    position: absolute;
+                    span {
+                        display: block;
+
+                        &.price {
+                            width: 72px;
+                            height: 20px;
+    
+                            font-family: 'Mulish';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 29px;
+                            line-height: 36px;
+                            text-align: center;
+                            text-transform: uppercase;
+    
+                            color: #FFFFFF;
+    
+    
+                            /* Inside auto layout */
+    
+                            flex: none;
+                            order: 0;
+                            flex-grow: 0;
+                        }
+
+                        &.subtitle {
+                            width: 56px;
+                        height: 10px;
+
+                        font-family: 'Mulish';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 18px;
+
+                        text-align: center;
+
+                        color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+
+            .pricing-body {
+                ul {
+                    &.list-style--1 {
+                        li {
+                            color: #778793;
+
+                            svg {
+                                color: #FFFFFF;
+                                background: #01CB77;
+                                border-radius: 50%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .pricing-footer {
+                text-align: center;
+
+                a {
+                    &.rn-btn {
+                        background: #FFFFFF;
+                        color: #476BC7;
+                        left: 81px;
+                        top:154px;
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    }
+
+    &.thirdcard{
+    
+width: 330px;
+height: 378px;
+
+background: linear-gradient(229.88deg, #3462B1 3.14%, #2ED4BD 96.16%);
+border-radius: 10px;
+
+        
+           
+    
+            .pricing-table-inner {
+                .pricing-header {
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    
+                    h4 {
+                        &.title {
+                            position: absolute;
+                        width: 92px;
+                        height: 30px;
+                        left: 81px;
+                        top: 70px;
+    
+                        font-family: 'Mulish';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 30px;
+                        text-align: center;
+                        letter-spacing: 5px;
+                        text-transform: uppercase;
+    
+                        color: #FFFFFF;
+    
+                        }
+                    }
+    
+                    .pricing {
+                        left: 98px;
+                        top:112px;
+                        position: absolute;
+                        span {
+                            display: block;
+    
+                            &.price {
+                                width: 72px;
+                                height: 20px;
+        
+                                font-family: 'Mulish';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 29px;
+                                line-height: 36px;
+                                text-align: center;
+                                text-transform: uppercase;
+        
+                                color: #FFFFFF;
+        
+        
+                                /* Inside auto layout */
+        
+                                flex: none;
+                                order: 0;
+                                flex-grow: 0;
+                            }
+    
+                            &.subtitle {
+                                width: 56px;
+                            height: 10px;
+    
+                            font-family: 'Mulish';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 18px;
+    
+                            text-align: center;
+    
+                            color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+    
+                .pricing-body {
+                    ul {
+                        &.list-style--1 {
+                            li {
+                                color: #778793;
+    
+                                svg {
+                                    color: #FFFFFF;
+                                    background: #01CB77;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .pricing-footer {
+                    text-align: center;
+    
+                    a {
+                        &.rn-btn {
+                            background: #FFFFFF;
+                            color: #476BC7;
+                            left: 81px;
+                            top:154px;
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+        
+
+    }
+}

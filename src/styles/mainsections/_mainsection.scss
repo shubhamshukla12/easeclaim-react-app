@@ -1,0 +1,120 @@
+.govt-main-section {
+    position: relative;
+    h3 {
+        &.title {
+    
+            position: absolute;
+            width: 629px;
+            height: 56px;
+            top: 100px;
+            left: 120px;
+            font-family: "Mulish";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 56px;
+            color: #141414;
+    
+    
+        }
+    }
+}
+
+.govt-main-section::before {
+    position: absolute;
+    width: 81px;
+    height: 204px;
+    content: "1";
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 204px;
+    line-height: 204px;
+    /* identical to box height, or 100% */
+    left: 115px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+
+    opacity: 0.05;
+    z-index: -1;
+}
+.govt-main-section-heading{
+    position: relative;
+    h3{
+        position: absolute;
+        width: 594px;
+        height: 56px;
+        left: 180px;
+        top: 106px;
+        
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 56px;
+        /* identical to box height, or 175% */
+        
+        
+        color: #141414;
+    }
+}
+.govt-main-section-heading::before {
+    content: "2";
+    position: absolute;
+    width: 116px;
+    height: 204px;
+    
+    left: 180px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 204px;
+    line-height: 204px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+    
+    opacity: 0.05;
+}
+
+
+
+.govt-img-thumb {
+
+    width: 657px;
+    height: 257px;
+    left: calc(50% - 657px/2 + 37.5px);
+    margin: auto;
+    mix-blend-mode: multiply;
+    /* Shadow 2 */
+
+    box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+}
+
+.govt-details-content {
+    height: 375px;
+    width: 1056px;
+    left: 205px;
+    background-color: #FFFFFF;
+    margin: auto;
+
+    .paragraph-details {
+        p {
+            font-family: 'Sofia Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+
+            letter-spacing: -0.02em;
+
+            color: #778793;
+        }
+    }
+
+}

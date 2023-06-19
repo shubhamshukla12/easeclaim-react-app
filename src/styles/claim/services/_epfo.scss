@@ -1,0 +1,248 @@
+/*====================
+    About Area 
+======================*/
+
+
+.epfo-inner {
+    @media #{$md-layout} {
+        padding-top: 40px;
+    }
+
+    @media #{$sm-layout} {
+        padding-top: 40px;
+    }
+
+    .section-title {
+        h2 {
+            &.title {
+                margin-bottom: 8px;
+            }
+        }
+
+        p {
+            &.description {
+                font-weight: 300;
+                color: #717173;
+
+                a {
+                    color: rgba(29, 29, 36, 1);
+
+                    &:hover {
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.spfo-wrapper {
+ position: relative;
+    margin-top: -50px;
+    .thumbnail {
+       
+
+        img {
+            border-radius: 8px;
+    
+            width: 448px;
+            height: 298px;
+          
+            top: 854px;
+
+        }
+    }
+}
+
+.about-position-top {
+    @media #{$lg-layout} {
+        padding-top: 120px;
+    }
+
+    @media #{$md-layout} {
+        padding-top: 80px;
+    }
+
+    @media #{$sm-layout} {
+        padding-top: 60px;
+    }
+
+    .thumbnail {
+        margin-top: -130px;
+
+        @media #{$lg-layout} {
+            margin-top: 0;
+        }
+
+        @media #{$laptop-device} {
+            margin-top: -89px;
+        }
+
+        @media #{$md-layout} {
+            margin-top: 0;
+        }
+
+        @media #{$sm-layout} {
+            margin-top: 0;
+        }
+    }
+}
+
+.spfo-list {
+    margin-top: 15px;
+
+    h3 {
+        &.title {
+          
+            width: 596px;
+            height: 112px;
+            left: 170px;
+            top: 933px;
+
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 56px;
+            /* or 175% */
+
+
+            color: #141414;
+
+            @media #{$sm-layout} {
+                font-size: 26px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    p {
+      
+        width: 600px;
+        height: 122px;
+        left: calc(50% - 600px/2 - 250px);
+        top: 1056px;
+
+        /* Paragraph */
+
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        letter-spacing: -0.02em;
+
+        color: #778793;
+
+    }
+}
+
+.epfo-content-box-style {
+ 
+width: 1056px;
+height: auto;
+
+    .content {
+        text-align: left;
+      
+        /* or 150% */
+        
+        letter-spacing: -0.02em;
+        
+        color: #778793;
+        
+        @media #{$md-layout} {
+            padding: 0 60px;
+        }
+
+        @media #{$sm-layout} {
+            padding: 0 40px;
+        }
+
+        p {
+            &.subtitle {
+                color: $heading-color;
+                font-size: 16px;
+                font-weight: 400;
+                background: rgba(255, 26, 80, 0.03);
+                padding: 8px 25px;
+                display: inline-block;
+                border-radius: 4px;
+
+                span {
+                    color: $theme-color;
+                }
+            }
+        }
+
+       
+        p {
+             
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        }
+    }
+}
+
+.individual-list {
+    margin-top: 5px;
+
+    h3 {
+        &.title {
+          
+            width: 419px;
+            height: 56px;
+            left: 180px;
+            top: 933px;
+            
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 56px;
+            /* identical to box height, or 175% */
+            
+            
+            color: #141414;
+            
+
+            @media #{$sm-layout} {
+                font-size: 26px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    .individual-poara{
+        width: 1056px !important;
+        height: 375px;
+        p {
+      
+            width: auto;
+       
+           
+            /* Paragraph */
+            
+            font-family: 'Sofia Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            
+            letter-spacing: -0.02em;
+            
+            color: #778793;
+            
+    
+        }
+    }
+
+    
+}

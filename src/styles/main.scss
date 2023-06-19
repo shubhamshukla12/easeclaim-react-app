@@ -1,0 +1,89 @@
+
+@import'./default/_variables';
+@import'./default/_mixins';
+
+// @import './vendors/bootstrap';
+
+/* Default  */
+
+
+
+@import'./default/_animations';
+@import'./default/_extend';
+
+@import'./default/_reset';
+@import'./default/_reset';
+@import'./default/_shortcode';
+@import'./default/_spacing';
+@import'./default/_typography';
+
+
+
+/* Header  */
+@import'./header/_header';
+@import'./header/_mainmenu';
+
+
+
+/* Blog  */
+
+@import'./blog/_blog';
+@import'./blog/_blog-details'; 
+
+
+/* Common */
+
+@import'./common/_breadcrump';
+@import'./common/_button';
+@import'./common/_footer';
+@import'./common/_pagination';
+@import'./common/_section-title';
+@import'./common/_socialicon'; 
+@import './common/partnerbanner';
+
+/* Elements  */
+
+@import'./elements/_accordion';
+@import'./elements/_brand';
+
+@import'./elements/_column';
+@import'./elements/_contact';
+
+@import'./elements/_counterup';
+@import'./elements/_counterup';
+@import'./elements/_list';
+
+
+@import'./elements/_pricing';
+
+@import'./elements/_service';
+@import'./elements/_slider';
+@import'./elements/_tab';
+@import'./elements/_team';
+
+
+
+
+/* Claim*/
+@import './claim/cards';
+@import './claim/about/advisors';
+@import './claim/conatact/cantact';
+@import './claim/simcard' ;
+@import './claim/simcomponent.scss';
+@import './claim/contact/contactform';
+@import './claim/services/epfo';
+@import './claim/services/esic';
+@import './claim/services/hospitalclaim';
+@import './claim/services/individualclaim';
+@import './claim/services/lpg';
+@import './mainsections/mainsection';
+
+/* Template */
+
+@import'./template/_about';
+
+
+
+@import'./template/_portfolio-details';
+@import'./template/_preview';
+@import'./template/_service-details'; 

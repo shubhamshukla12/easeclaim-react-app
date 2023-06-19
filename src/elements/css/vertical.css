@@ -1,0 +1,126 @@
+.number {
+    width: 34px;
+    height: 24px;
+    padding: 2px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #376E91;
+}
+
+.heading1 {
+    width: 276px;
+    height: 30px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    /* primary 2 */
+
+    color: #476BC7;
+}
+
+.heading2 {
+    width: 276px;
+    height: 60px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    /* primary 2 */
+
+    color: #476BC7;
+}
+
+.heading3 {
+    width: 276px;
+    height: 60px;
+
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    /* primary 2 */
+
+    color: #476BC7;
+
+}
+
+.para1 {
+    width: 472px;
+    height: 48px;
+
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+    color: #778793;
+}
+
+.para2 {
+    width: 472px;
+    height: 96px;
+
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+
+
+    color: #778793;
+}
+
+.para3 {
+    width: 502px;
+    height: 72px;
+
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+
+
+    color: #778793;
+}
+
+
+.rotated-text {
+    position: absolute;
+    width: 580px;
+    height: 50px;
+    left: calc(50% - 579px/2 - 428.5px);
+    top: 198px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.32em;
+    color: #FB7369;
+    transform: rotate(-90deg);
+}

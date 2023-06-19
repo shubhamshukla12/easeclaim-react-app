@@ -1,0 +1,60 @@
+.claim-contact-form {
+
+    width: 589px;
+    height: 535px;
+    background: #FFFFFF;
+    /* Shadow 2 */
+    box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+     
+    .inner {
+        margin: 28px 42px;
+        .rnform-group {
+            box-sizing: border-box;
+
+            /* Auto layout */
+
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 22px 15px;
+            gap: 10px;
+
+            width: 245px;
+            height: 55px;
+
+            background: #FFFFFF;
+            /* primary 2 */
+
+            border: 1px solid #476BC7;
+            border-radius: 7px;
+        }
+
+        .rnform-group-1 {
+            box-sizing: border-box;
+
+            /* Auto layout */
+
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 22px 15px;
+            gap: 10px;
+
+            width: 526px;
+            height: 108px;
+
+            background: #FFFFFF;
+            /* primary 2 */
+
+            border: 1px solid #476BC7;
+            border-radius: 7px;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 3;
+            flex-grow: 0;
+        }
+    }
+}

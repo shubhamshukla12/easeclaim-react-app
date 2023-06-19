@@ -1,0 +1,134 @@
+/*-------------------
+    Column Area  
+---------------------*/
+
+.claim-team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 13px;
+    position: relative;
+    width: 330px;
+    height: 401px;
+    left: 20px;
+    top: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    &.custum-team-card-1 {
+        div {
+            min-width: 270px;
+            max-height: 270px !important;
+
+            background: #D9D9D9;
+            border-radius: 7px;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        &.team-name {
+            width: 84px;
+            height: 24px;
+
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 24px;
+            /* identical to box height, or 133% */
+
+            text-align: center;
+            letter-spacing: -0.02em;
+
+            color: #000000;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        &.team-position {
+
+            width: 49px;
+            height: 24px;
+
+            font-family: 'Sofia Pro';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            /* identical to box height, or 171% */
+
+            text-align: center;
+            letter-spacing: -0.02em;
+
+            color: #778793;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }
+    }
+
+
+
+    h4 {
+        &.tilte {
+            margin-bottom: 6px;
+        }
+    }
+
+
+    p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    &.custum-button-2 {
+        a {
+            &.rn-btn {
+                border: 2px solid rgba(43, 240, 17, 0.5);
+                color: #59d68f;
+            }
+        }
+    }
+
+
+
+    &.custom-color {
+
+        background: #e0cccc;
+        padding: 37px 29px;
+
+        h4 {
+            &.tilte {
+                color: #ffffff;
+            }
+        }
+
+        p {
+            color: #ffffff;
+        }
+
+
+
+        &.custom-color--1 {
+            background: #001c43;
+        }
+
+        &.custom-color--2 {
+            background: #c93ec7;
+        }
+    }
+}

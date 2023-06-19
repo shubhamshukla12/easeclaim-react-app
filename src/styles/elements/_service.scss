@@ -1,0 +1,709 @@
+/*==========================
+    Service Area 
+===========================*/
+.service-one-wrapper {
+    @media #{$md-layout} {
+        margin: 0 -40px;
+    }
+}
+
+.service {
+
+    // Service Style One
+    &.service__style--1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 20px;
+        gap: 20px;
+
+        width: 313px;
+        height: 210px;
+
+
+        background: #F9FAFC;
+
+        @media #{$sm-layout} {
+            padding: 15px 0;
+        }
+
+        @media #{$md-layout} {
+            padding: 20px 0;
+        }
+
+        .content {
+            h4 {
+                &.title {
+                    width: 116px;
+                    height: 30px;
+                    margin-top: 10px;
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 30px;
+
+                    color: #141414;
+
+                    @media #{$sm-layout} {
+                        margin-bottom: 12px;
+                        font-weight: 400;
+                        font-size: 20px;
+                    }
+
+                    @media #{$large-mobile} {
+                        margin-bottom: 9px;
+                        font-size: 18px;
+                    }
+
+                }
+            }
+
+            p {
+                opacity: 0.75;
+                font-weight: 300;
+            }
+        }
+
+        .btn-blog-1 {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+
+            gap: 20px;
+
+            a,
+            button {
+                &.blog-btn-1 {
+                    display: block;
+
+                    padding: 10px;
+
+                    color: #9A9A9A;
+
+                    width: 99px;
+                    height: 45px;
+
+                    cursor: pointer;
+                    background: #EEEEEE;
+                    border-radius: 5px;
+
+
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 25px;
+                    /* identical to box height, or 156% */
+
+                    letter-spacing: 0.02em;
+
+                }
+
+                &.blog-btn-2 {
+
+                    padding: 12px;
+                    gap: 10px;
+                    cursor: pointer;
+                    color: #9A9A9A;
+                    width: 100px;
+                    height: 45px;
+
+                    background: #EEEEEE;
+                    border-radius: 5px;
+
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 25px;
+                    /* identical to box height, or 156% */
+
+                    letter-spacing: 0.02em;
+                }
+
+                &.blog-btn-3 {
+
+                    padding: 10px;
+                    gap: 10px;
+                    cursor: pointer;
+                    color: #9A9A9A;
+                    width: 66px;
+                    height: 45px;
+
+                    background: #EEEEEE;
+                    border-radius: 5px;
+
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 25px;
+                    /* identical to box height, or 156% */
+
+                    letter-spacing: 0.02em;
+                }
+
+                &.blog-btn-4 {
+
+                    padding: 10px;
+                    gap: 10px;
+                    cursor: pointer;
+                    color: #9A9A9A;
+                    width: 99px;
+                    height: 45px;
+
+                    background: #EEEEEE;
+                    border-radius: 5px;
+
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 25px;
+                    /* identical to box height, or 156% */
+
+                    letter-spacing: 0.02em;
+                }
+
+                &.blog-btn-5 {
+
+                    padding: 10px;
+                    gap: 10px;
+                    cursor: pointer;
+                    color: #9A9A9A;
+                    width: 66px;
+                    height: 45px;
+
+                    background: #EEEEEE;
+                    border-radius: 5px;
+
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 25px;
+                    /* identical to box height, or 156% */
+
+                    letter-spacing: 0.02em;
+                }
+            }
+        }
+
+
+
+
+
+    }
+
+    &.service__style--2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 20px;
+        gap: 27px;
+
+
+        width: 313px;
+        height: 267px;
+
+
+        background: #F7F7F7;
+        border-radius: 16px;
+
+
+
+        @media #{$laptop-device} {
+            padding: 30px 28px;
+        }
+
+        @media #{$md-layout} {
+            padding: 30px 25px;
+        }
+
+        @media #{$sm-layout} {
+            padding: 30px 14px;
+        }
+
+        @media #{$large-mobile} {
+            padding: 30px 18px;
+            margin-top: 30px;
+        }
+
+
+
+        .content {
+            h3 {
+                &.title {
+                    width: 140px;
+                    height: 30px;
+
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px !important;
+                    line-height: 30px;
+                    display: flex;
+                    align-items: center;
+
+                    color: #141414;
+
+                    @media #{$laptop-device} {
+                        font-size: 19px;
+                    }
+
+                    @media #{$sm-layout} {
+                        font-size: 20px;
+                    }
+
+                    @media #{$md-layout} {
+                        margin-bottom: 8px;
+                    }
+
+                    @media #{$large-mobile} {
+                        color: #ffffff;
+                    }
+
+                    a {
+                        color: inherit;
+
+                        @media #{$large-mobile} {
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+
+            p {
+                @extend %transition;
+                color: rgba(29, 29, 36, 0.75);
+
+                @media #{$large-mobile} {
+                    color: #ffffff;
+                }
+
+            }
+        }
+
+
+        .blog-contact-para-1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            span {
+                &.blog-span-1 {
+
+                    width: 64px;
+                    height: 30px;
+
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    /* identical to box height, or 188% */
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #FB7369;
+
+                }
+
+                &.blog-span-2 {
+
+                    width: 235.79px;
+                    height: 19px;
+
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    /* or 188% */
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #9A9A9A;
+                }
+
+                &.blog-span-3 {
+
+                    width: 51px;
+                    height: 30px;
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    /* identical to box height, or 188% */
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #FB7369;
+                }
+
+                &.blog-span-4 {
+                    width: 131.67px;
+                    height: 19px;
+
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    /* or 188% */
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #9A9A9A;
+                }
+
+                &.blog-span-5 {
+
+                    width: 45px;
+                    height: 30px;
+
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    /* identical to box height, or 188% */
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #FB7369;
+                }
+
+                &.blog-span-6 {
+                    width: 163px;
+                    height: 19px;
+
+
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    /* or 188% */
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #9A9A9A;
+                }
+
+                &.blog-span-7 {
+                    width: 37px;
+                    height: 30px;
+                   
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    /* identical to box height, or 188% */
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #9A9A9A;
+                }
+            }
+        }
+
+
+    }
+
+
+
+    // Service Style Four 
+    &.service__style--4 {
+        padding: 53px 40px;
+        z-index: 2;
+        border-radius: 10px;
+        position: relative;
+        @extend %transition;
+        background: #191919;
+        height: 100%;
+        cursor: pointer;
+
+        @media #{$laptop-device} {
+            padding: 36px 25px;
+        }
+
+        @media #{$lg-layout} {
+            padding: 25px 20px;
+        }
+
+        @media #{$md-layout} {
+            padding: 30px 25px;
+        }
+
+        @media #{$sm-layout} {
+            padding: 25px 20px;
+        }
+
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            background-image: -webkit-gradient(linear, left top, right top, from(#f61b10), to(#ef0963));
+            background-image: -webkit-linear-gradient(left, #f61b10, #ef0963);
+            background-image: linear-gradient(90deg, #f61b10, #ef0963);
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0;
+            visibility: hidden;
+            border-radius: 10px;
+            @extend %transition;
+
+            @media #{$large-mobile} {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+        .icon {
+            display: inline-flex;
+            font-size: 54px;
+            font-weight: 400;
+            margin-bottom: 23px;
+            display: inline-flex;
+            color: $theme-color;
+            @extend %transition;
+
+            @media #{$sm-layout} {
+                margin-bottom: 18px;
+            }
+
+            @media #{$large-mobile} {
+                color: #fff;
+            }
+
+            svg {
+                stroke-width: 1 !important;
+            }
+        }
+
+        .content {
+            h3 {
+                &.title {
+                    margin-bottom: 19px;
+                    font-weight: 500;
+                    font-size: 22px;
+                    @extend %transition;
+
+                    @media #{$laptop-device} {
+                        margin-bottom: 12px;
+                        font-size: 20px;
+                    }
+
+                    @media #{$large-mobile} {
+                        color: #fff;
+                    }
+
+                    @media #{$sm-layout} {
+                        margin-bottom: 10px;
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            p {
+                color: rgba(29, 29, 36, .75);
+                @extend %transition;
+
+                @media #{$large-mobile} {
+                    color: #fff;
+                }
+            }
+        }
+
+        &:hover {
+            box-shadow: 0 10px 25px 10px rgba(0, 0, 0, .1);
+            -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+
+            &::before {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .icon {
+                color: #fff;
+            }
+
+            .content {
+                h3 {
+                    &.title {
+                        color: #fff;
+                    }
+                }
+
+                p {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+
+
+}
+
+/* ---------------------------
+    Standard Service  
+-------------------------------*/
+.standard-service {
+    .thumbnai {
+        img {
+            border-radius: 5px;
+        }
+    }
+
+    .content {
+        h3 {
+            font-size: 19px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-weight: 600;
+
+            a {
+                @extend %transition;
+                color: $heading-color;
+
+                &:hover {
+                    color: $theme-color;
+                }
+            }
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 24px;
+        }
+
+        a {}
+    }
+}
+
+
+
+.text-center,
+.text-left {
+    .service {
+        &.service__style--2 {
+            padding: 60px 45px;
+
+            @media #{$sm-layout} {
+                padding: 30px 14px;
+            }
+
+            @media #{$lg-layout} {
+                padding: 30px 14px;
+            }
+
+            @media #{$md-layout} {
+                padding: 30px 14px;
+            }
+        }
+    }
+}
+
+// Sercvice Style One
+.service-white {
+
+    // Service Style One
+    .service__style--2 {
+        z-index: 2;
+
+        .content {
+            h4 {
+                &.title {
+                    color: #c6c9d8;
+                }
+            }
+
+            p {
+                color: #c6c9d8;
+
+            }
+        }
+    }
+}
+
+/*---------------------------
+    Paralax Service Style  
+-----------------------------*/
+
+.rn-paralax-service {
+    .service__style--2 {
+        z-index: 2;
+        padding: 40px 40px;
+        background: rgba(255, 255, 255, 0.3);
+        margin-top: 40px;
+        overflow: hidden;
+        border: 2px solid transparent;
+
+        @media #{$sm-layout} {
+            padding: 30px 20px;
+            background: transparent;
+            margin-top: 30px;
+        }
+
+        .icon {
+            color: #ffffff;
+        }
+
+        .content {
+            h3 {
+                &.title {
+                    font-size: 19px;
+                    color: #ffffff;
+                }
+            }
+
+            p {
+                color: rgba(255, 255, 255, 0.75);
+            }
+        }
+
+        &:hover {
+            border: 2px solid $theme-color;
+
+            &::before {
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+/* Creative Agency Service  */
+.creative-service-wrapper {
+    .row {
+        &.creative-service {
+            a {
+                display: flex;
+                height: 100%;
+            }
+
+            .service {
+
+                &.service__style--2 {
+                    margin-top: 30px;
+                    background: #f6f6f6;
+                }
+            }
+        }
+    }
+
+}

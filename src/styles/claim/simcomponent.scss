@@ -1,0 +1,123 @@
+.parallax-container {
+    position: relative;
+
+    height: 810px;
+    background-image: url(../../../public/assets/images/services/Vector-service-1.jpg);
+    /* Replace with your desired image */
+    background-repeat: no-repeat;
+    background-position: 535px 0px !important;
+    background-size: cover;
+
+    .parallax-content {
+        position: relative;
+        z-index: 1;
+
+        .custom-col {
+            margin-top: 50px;
+            margin-left: 80px;
+            padding: 10px;
+
+
+
+            h2 {
+                width: 592px;
+                height: 56px;
+
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 56px;
+                /* identical to box height, or 175% */
+
+
+                color: #141414;
+
+
+            }
+
+            p {
+                width: 519px;
+                height: 80px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 40px;
+                /* or 167% */
+
+
+                color: #A1A1A1;
+            }
+
+
+
+
+        }
+
+
+
+    }
+
+
+}
+
+.custom-col-1 {
+
+    margin-left: 80px;
+    padding: 10px;
+
+    h2 {
+
+        width: 297px;
+        height: 56px;
+
+
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 56px;
+        /* identical to box height, or 175% */
+
+
+        color: #141414;
+    }
+
+    p: {
+
+        width: 600px;
+        height: 122px;
+
+
+        /* Paragraph */
+
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        letter-spacing: -0.02em;
+
+        color: #778793;
+
+    }
+
+    .custom-col-1-img {
+      
+        img{
+            width: 404px;
+            height: 303px;
+            left: calc(50% - 404px/2 + 286px);
+            top: 891px;
+        }
+       
+
+    }
+
+
+
+}

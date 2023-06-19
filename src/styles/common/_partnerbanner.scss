@@ -1,0 +1,182 @@
+.partner-banner {
+    position: relative;
+    height: 175px;
+    width: 1280px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    border-radius: 30px;
+
+    background: #476BC7;
+    border-radius: 30px;
+
+    .inner {
+
+        img {
+            &.banner-img {
+                position: absolute;
+                width: 211.76px;
+                height: 214.13px;
+                left: calc(50% - 723.88px + 148.1px);
+                top: -39px;
+             
+            }
+        }
+         .bannerpara {
+                h2 {
+                    position: absolute;
+left: 37.5%;
+right: 37.42%;
+top: 42.42%;
+bottom: 39.39%;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+                }
+
+                p {
+
+                    position: absolute;
+                    left: 29.69%;
+                    right: 29.61%;
+                    top: 64.02%;
+                    bottom: 26.89%;
+                    
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 24px;
+                    /* identical to box height */
+                    
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    
+                    color: #FFFFFF;
+
+                }
+
+                a {
+                    box-sizing: border-box;
+
+                    position: absolute;
+                    left: 1.63%;
+                    right: 0%;
+                    top: 0%;
+                    bottom: 9.09%;
+                    
+                    background: #FFFFFF;
+                    border: 1px solid #FFFFFF;
+                    border-radius: 7px;
+                }
+            }
+
+
+    }
+
+    @media #{$lg-layout} {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    @media #{$sm-layout} {
+        position: relative;
+        height: 272px;
+        width: 348px;
+        margin: auto;
+        left: -38px;
+        top: 0px;
+        border-radius: 30px;
+
+        background: #476BC7;
+        border-radius: 30px;
+
+        .inner {
+
+            img {
+                &.banner-img {
+                 
+                    position: absolute;
+                    width: 158.76px;
+                    height: 149.13px;
+                    left: calc(50% + 69.12px - 231.9px);
+                    top: calc(50% + 24.935px - 38.19px);
+                  
+                }
+
+            }
+
+            .bannerpara {
+                h2 {
+                    position: absolute;
+                    width: 169px;
+                    left: calc(50% - 169px/2 + 1.5px);
+                    top: 7.72%;
+                    bottom: 83.09%;
+
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 25px;
+                    /* identical to box height */
+
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+
+                    color: #FFFFFF;
+                }
+
+                p {
+
+                    position: absolute;
+                    width: 190px;
+                    left: calc(50% - 190px/2 + 1px);
+                    top: 22.06%;
+                    bottom: 66.18%;
+
+                    font-family: 'Sofia Pro';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 16px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+
+                    color: #FFFFFF;
+
+                }
+
+                a {
+                    box-sizing: border-box;
+
+                    position: absolute;
+                    left: 1.63%;
+                    right: 0%;
+                    top: 0%;
+                    bottom: 9.09%;
+
+                    background: #FFFFFF;
+                    border: 1px solid #FFFFFF;
+                    border-radius: 7px;
+                }
+            }
+
+        }
+
+    }
+
+}

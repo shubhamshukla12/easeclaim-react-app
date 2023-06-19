@@ -1,0 +1,220 @@
+/*==========================
+    verified-advisors
+============================*/
+
+.rn-verified-advisors {
+    position: relative;
+    height: 388px;
+    width: 342px;
+    margin-top: 30px;
+    border: 1px solid #ebebeb;
+    padding: 40px;
+    padding-top: 54px;
+    background: #fff;
+    padding-bottom: 50px;
+    border-radius: 22px;
+
+    .icon {
+        border: 1px solid #f0efef;
+        width: 80px;
+        height: 80px;
+        color: $theme-color;
+        line-height: 73px;
+        text-align: center;
+        border-radius: 100%;
+        background: #009F9D;
+        font-size: 28px;
+        position: absolute;
+        top: -43px;
+        right: -35px;
+
+    }
+
+    &.inner {
+        h4 {
+            &.title {
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 0;
+            color: rgba(29, 29, 36, 0.75);
+
+            @media #{$lg-layout} {
+                font-size: 16px;
+            }
+
+            @media #{$md-layout} {
+                font-size: 16px;
+            }
+
+            @media #{$sm-layout} {
+                font-size: 16px;
+            }
+
+            &.seemore {
+                position: absolute;
+                width: 78px;
+                height: 23px;
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 23px;
+
+                height: 23px;
+                width: 78px;
+
+
+                /* primary 1 */
+
+                color: #FB7369;
+
+            }
+
+            a {
+                color: rgba(29, 29, 36, 0.75);
+                @extend %transition;
+
+                &:hover {
+                    color: $theme-color;
+                }
+            }
+        }
+
+    }
+
+    .buttom-cal-card {
+        box-sizing: border-box;
+        position: absolute;
+        width: 370px !important;
+        height: 302px !important;
+        top: 201px;
+        right: -252px;
+        background: #FFFFFF;
+        border: 1px solid #DFDFDF;
+        box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+        border-radius: 22px;
+
+        .inner-container {
+            box-sizing: border-box;
+            position: relative;
+
+            h2 {
+                &.title {
+                    position: absolute;
+                    width: 119px;
+                    height: 25px;
+                    font-family: "Mulish";
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 20px;
+                    line-height: 25px;
+                    height: 25px;
+                    width: 119px;
+                    border-radius: nullpx;
+                    left: 32%;
+                    top: 166px;
+                    text-align: center;
+                    color: #111235;
+
+                }
+            }
+
+            img {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                left: 34%;
+                top: 40px;
+                border-radius: 50%;
+            }
+
+            p {
+                position: absolute;
+                width: 110px;
+                height: 14px;
+                left: 34%;
+                top: 200px;
+                font-family: 'Sofia Pro';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 14px;
+                /* identical to box height */
+
+                text-align: center;
+
+                color: #6C6C6C;
+
+
+                @media #{$lg-layout} {
+                    font-size: 16px;
+                }
+
+                @media #{$md-layout} {
+                    font-size: 16px;
+                }
+
+                @media #{$sm-layout} {
+                    font-size: 16px;
+                }
+
+              
+
+                a {
+                    .get-start-btn-3 {
+                        box-sizing: border-box;
+                        position: absolute;
+                        height: 54px;
+                        width: 172px;
+                       
+                        margin: 25px 50px;
+                       
+                        /* primary 2 */
+            
+                        background: #476BC7;
+                        border-radius: 7px;
+            
+                        box-shadow: 0px 4px 4px rgba(102, 103, 184, 0.9);
+            
+                        div {
+                            .title-3 {
+                                position: absolute;
+                                width: 125px;
+                                height: 24px;
+                                left: calc(50% - 125px/2 + 2px);
+                                top: calc(50% - 24px/2 - 4px);
+                                
+                                font-family: 'Mulish';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 24px;
+                                /* identical to box height, or 120% */
+                                
+                                display: flex;
+                                align-items: center;
+                                text-align: center;
+                                
+                                color: #FFFFFF;
+                                
+            
+                            }
+            
+            
+                        }
+            
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+}
