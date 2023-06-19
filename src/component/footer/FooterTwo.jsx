@@ -46,11 +46,11 @@ const FooterTwo = () => {
                   <div className="footer-link">
                     <h4>Quick Links</h4>
                     <ul className="ft-link">
-                      <li><a href="/">Home</a></li>
-                      <li><a href="#">About us</a></li>
-                      <li><a href="#">Associate partner</a></li>
-                      <li><a href="#">Claim your insurance</a></li>
-                      <li><a href="#">Contact us</a></li>
+                      <li><span href="/">Home</span></li>
+                      <li><span href="#">About us</span></li>
+                      <li><span href="#">Associate partner</span></li>
+                      <li><span href="#">Claim your insurance</span></li>
+                      <li><span href="#">Contact us</span></li>
                     </ul>
                   </div>
                 </div>
@@ -58,13 +58,13 @@ const FooterTwo = () => {
                   <div className="footer-link">
                     <h4>Services</h4>
                     <ul className="ft-link">
-                      <li><a href="#">Government schemes</a></li>
-                      <li><a href="#">Rupay Card Insurance</a></li>
-                      <li><a href="#">SIM Card Insurance</a></li>
-                      <li><a href="#">LPG Accidental insurance</a></li>
-                      <li><a href="#">ESIC Benefits</a></li>
-                      <li><a href="#">EPFO Benefits</a></li>
-                      <li><a href="#">Claim Assistance</a></li>
+                      <li><span href="#">Government schemes</span></li>
+                      <li><span href="#">Rupay Card Insurance</span></li>
+                      <li><span href="#">SIM Card Insurance</span></li>
+                      <li><span href="#">LPG Accidental insurance</span></li>
+                      <li><span href="#">ESIC Benefits</span></li>
+                      <li><span href="#">EPFO Benefits</span></li>
+                      <li><span href="#">Claim Assistance</span></li>
                     </ul>
                   </div>
                 </div>

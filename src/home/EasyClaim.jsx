@@ -87,13 +87,13 @@ class EasyClaim extends Component {
           <div class="container">
             <div class="row justify-content-between">
               <div class="col-lg-4 need-help">
-                <a
+                <span
                   href="#"
                   class="text-dark"
                   style={{ textDecoration: "underline" }}
                 >
                   Need Help?
-                </a>
+                </span>
               </div>
               <div class="col-lg-4 text-center scroll-down-btn d-m-none">
                 <p class="text-primary scroll-down">Scroll Down</p>

@@ -4,7 +4,7 @@ import Breadcrumb from '../../elements/common/Breadcrumb';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from 'react-icons/fi';
 import { Container, Row, Col } from 'react-bootstrap';
-import VerticalOne from '../../component/verticalline/VerticalOne';
+// import VerticalOne from '../../component/verticalline/VerticalOne';
 import PartnerBanner from '../../component/common/PartnerBanner';
 
 const IndividualClaim = () => {

@@ -43,13 +43,13 @@ const ServiceOne = () => {
                                     <h4 className="title">Tag Cloud</h4>
                                 </div>
                                 <div className="btn-blog-1">
-                                    <a className="blog-btn-1">IT services</a>
-                                    <a className="blog-btn-2">Consulting</a>
+                                    <span className="blog-btn-1">IT services</span>
+                                    <span className="blog-btn-2">Consulting</span>
                                 </div>
                                 <div className="btn-blog-1">
-                                    <a className="blog-btn-3">Cyber</a>
-                                    <a className="blog-btn-4">IT Support</a>
-                                    <a className="blog-btn-5">UX/UI</a>
+                                    <span className="blog-btn-3">Cyber</span>
+                                    <span className="blog-btn-4">IT Support</span>
+                                    <span className="blog-btn-5">UX/UI</span>
                                 </div>
                             </div>
                         </div>

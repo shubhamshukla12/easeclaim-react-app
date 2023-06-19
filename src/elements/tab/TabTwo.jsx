@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import { ProgressBar } from 'react-bootstrap';
+// import { ProgressBar } from 'react-bootstrap';
 import BlogContent from "../blog/BlogContent";
 
 class TabsTwo extends Component {

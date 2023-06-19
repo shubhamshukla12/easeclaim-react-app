@@ -47,7 +47,7 @@ const ClaimNow = () => {
                         </div>
                       </div>
                       <div className="submit-btn-box">
-                        <a href="#" className="submit-btn">Submit</a>
+                        <span href="#" className="submit-btn">Submit</span>
                       </div>
                     </form>
                   </div>

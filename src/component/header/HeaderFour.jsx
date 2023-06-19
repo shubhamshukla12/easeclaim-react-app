@@ -66,7 +66,7 @@ class HeaderFour extends Component {
                 <a href="#service">Service</a>
                 <ul className="submenu">
                   <li className="has-droupdown">
-                    <a href="#">Hidden Insurance</a>
+                    <span href="#">Hidden Insurance</span>
                     <ul className="submenu">
                       <li><Link to="/govt-schemas">Govt Schemes</Link></li>
                       <li><Link to="/debit-credit">Debit / Credit Card</Link></li>
@@ -121,9 +121,9 @@ class HeaderFour extends Component {
           </nav>
 
           <div className="header-btn">
-            <a className="rn-btn" href="#">
+            <span className="rn-btn" href="#">
               <span>Claim Now</span>
-            </a>
+            </span>
           </div>
 
           <div className="humberger-menu d-block d-lg-none pl--20">

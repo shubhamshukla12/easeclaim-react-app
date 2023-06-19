@@ -1,29 +1,15 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
-
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import "./css/main.css";
 import "./css/responsive.css";
 import "./css/style.css";
-
 // import Footer from "../../public/assets/images/aboutus/Group-1.jpg";
 import Breadcrumb from "./common/Breadcrumb";
 import VerifiedAdvisors from "../claimpages/aboutpage/VerifiedAdvisors";
 import TeamTwo from "../blocks/team/TeamTwo";
 import PartnerBanner from "../component/common/PartnerBanner";
-
-let Data = [
-  {
-    countTitle: "HAPPY CLIENTS",
-  },
-  {
-    countTitle: "STORES",
-  },
-  {
-    countTitle: "AWWARDS",
-  },
-];
 
 class ServiceDetails extends Component {
   constructor() {
